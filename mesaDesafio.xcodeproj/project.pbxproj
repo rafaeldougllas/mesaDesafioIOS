@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045422F372F1098BBF170E49 /* Pods_mesaDesafio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7BA5A67974AAA98ABAEBC3 /* Pods_mesaDesafio.framework */; };
+		53C3EAAC24088DEE00742C9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C3EAAB24088DED00742C9F /* AppDelegate.swift */; };
+		53C3EAAE24088DEE00742C9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C3EAAD24088DEE00742C9F /* SceneDelegate.swift */; };
+		53C3EAB024088DEE00742C9F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C3EAAF24088DEE00742C9F /* LoginVC.swift */; };
+		53C3EAB324088DEE00742C9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53C3EAB124088DEE00742C9F /* Main.storyboard */; };
+		53C3EAB624088DEE00742C9F /* mesaDesafio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 53C3EAB424088DEE00742C9F /* mesaDesafio.xcdatamodeld */; };
+		53C3EAB824088DF600742C9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53C3EAB724088DF600742C9F /* Assets.xcassets */; };
+		53C3EABB24088DF600742C9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53C3EAB924088DF600742C9F /* LaunchScreen.storyboard */; };
+		53C3EAC624088DF600742C9F /* mesaDesafioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C3EAC524088DF600742C9F /* mesaDesafioTests.swift */; };
+		53C3EAD124088DF600742C9F /* mesaDesafioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C3EAD024088DF600742C9F /* mesaDesafioUITests.swift */; };
+		53C3EAE22408A3F800742C9F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C3EAE12408A3F800742C9F /* Constants.swift */; };
+		53C3EAE42408A5A500742C9F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C3EAE32408A5A500742C9F /* Utils.swift */; };
+		53C3EAE62408C64C00742C9F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53C3EAE52408C64B00742C9F /* GoogleService-Info.plist */; };
+		5C41F1F83560AC25570FEF6D /* Pods_mesaDesafio_mesaDesafioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7CAE67FC65477725416777 /* Pods_mesaDesafio_mesaDesafioUITests.framework */; };
+		A49D99250E56ECC08741A8FE /* Pods_mesaDesafioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B79F4FD8E4079E2A8D0F6F /* Pods_mesaDesafioTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53C3EAC224088DF600742C9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53C3EAA024088DED00742C9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53C3EAA724088DED00742C9F;
+			remoteInfo = mesaDesafio;
+		};
+		53C3EACD24088DF600742C9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53C3EAA024088DED00742C9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53C3EAA724088DED00742C9F;
+			remoteInfo = mesaDesafio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BD61F7AE4BD2C1D6FF88316 /* Pods-mesaDesafioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mesaDesafioTests.debug.xcconfig"; path = "Target Support Files/Pods-mesaDesafioTests/Pods-mesaDesafioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2AB55A26F536BB68F37EF5C2 /* Pods-mesaDesafio-mesaDesafioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mesaDesafio-mesaDesafioUITests.debug.xcconfig"; path = "Target Support Files/Pods-mesaDesafio-mesaDesafioUITests/Pods-mesaDesafio-mesaDesafioUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		53C3EAA824088DED00742C9F /* mesaDesafio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mesaDesafio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C3EAAB24088DED00742C9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53C3EAAD24088DEE00742C9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		53C3EAAF24088DEE00742C9F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		53C3EAB224088DEE00742C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53C3EAB524088DEE00742C9F /* mesaDesafio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mesaDesafio.xcdatamodel; sourceTree = "<group>"; };
+		53C3EAB724088DF600742C9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53C3EABA24088DF600742C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53C3EABC24088DF600742C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53C3EAC124088DF600742C9F /* mesaDesafioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mesaDesafioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C3EAC524088DF600742C9F /* mesaDesafioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mesaDesafioTests.swift; sourceTree = "<group>"; };
+		53C3EAC724088DF600742C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53C3EACC24088DF600742C9F /* mesaDesafioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mesaDesafioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C3EAD024088DF600742C9F /* mesaDesafioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mesaDesafioUITests.swift; sourceTree = "<group>"; };
+		53C3EAD224088DF600742C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53C3EAE12408A3F800742C9F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		53C3EAE32408A5A500742C9F /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		53C3EAE52408C64B00742C9F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		89EEE1AB08C5B7CDC8934AE9 /* Pods-mesaDesafioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mesaDesafioTests.release.xcconfig"; path = "Target Support Files/Pods-mesaDesafioTests/Pods-mesaDesafioTests.release.xcconfig"; sourceTree = "<group>"; };
+		9B7CAE67FC65477725416777 /* Pods_mesaDesafio_mesaDesafioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mesaDesafio_mesaDesafioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A066EEEA745B9B9418752C88 /* Pods-mesaDesafio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mesaDesafio.release.xcconfig"; path = "Target Support Files/Pods-mesaDesafio/Pods-mesaDesafio.release.xcconfig"; sourceTree = "<group>"; };
+		BE7BA5A67974AAA98ABAEBC3 /* Pods_mesaDesafio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mesaDesafio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65978F40D33CE10EBC7C622 /* Pods-mesaDesafio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mesaDesafio.debug.xcconfig"; path = "Target Support Files/Pods-mesaDesafio/Pods-mesaDesafio.debug.xcconfig"; sourceTree = "<group>"; };
+		D9B79F4FD8E4079E2A8D0F6F /* Pods_mesaDesafioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mesaDesafioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8076B1ACCA4844C3C9DD4C /* Pods-mesaDesafio-mesaDesafioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mesaDesafio-mesaDesafioUITests.release.xcconfig"; path = "Target Support Files/Pods-mesaDesafio-mesaDesafioUITests/Pods-mesaDesafio-mesaDesafioUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53C3EAA524088DED00742C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045422F372F1098BBF170E49 /* Pods_mesaDesafio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C3EABE24088DF600742C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49D99250E56ECC08741A8FE /* Pods_mesaDesafioTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C3EAC924088DF600742C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C41F1F83560AC25570FEF6D /* Pods_mesaDesafio_mesaDesafioUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53C3EA9F24088DED00742C9F = {
+			isa = PBXGroup;
+			children = (
+				53C3EAAA24088DED00742C9F /* mesaDesafio */,
+				53C3EAC424088DF600742C9F /* mesaDesafioTests */,
+				53C3EACF24088DF600742C9F /* mesaDesafioUITests */,
+				53C3EAA924088DED00742C9F /* Products */,
+				581B14A5E818DD5F0B2CDE09 /* Pods */,
+				9B9F3342CA96635BD1B6915F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53C3EAA924088DED00742C9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53C3EAA824088DED00742C9F /* mesaDesafio.app */,
+				53C3EAC124088DF600742C9F /* mesaDesafioTests.xctest */,
+				53C3EACC24088DF600742C9F /* mesaDesafioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53C3EAAA24088DED00742C9F /* mesaDesafio */ = {
+			isa = PBXGroup;
+			children = (
+				53C3EAE024089BDB00742C9F /* ViewModel */,
+				53C3EADF24089BCC00742C9F /* View */,
+				53C3EADE24089BBE00742C9F /* Model */,
+				53C3EAAB24088DED00742C9F /* AppDelegate.swift */,
+				53C3EAAD24088DEE00742C9F /* SceneDelegate.swift */,
+				53C3EAE12408A3F800742C9F /* Constants.swift */,
+				53C3EAB724088DF600742C9F /* Assets.xcassets */,
+				53C3EABC24088DF600742C9F /* Info.plist */,
+				53C3EAE52408C64B00742C9F /* GoogleService-Info.plist */,
+				53C3EAB424088DEE00742C9F /* mesaDesafio.xcdatamodeld */,
+				53C3EAE32408A5A500742C9F /* Utils.swift */,
+			);
+			path = mesaDesafio;
+			sourceTree = "<group>";
+		};
+		53C3EAC424088DF600742C9F /* mesaDesafioTests */ = {
+			isa = PBXGroup;
+			children = (
+				53C3EAC524088DF600742C9F /* mesaDesafioTests.swift */,
+				53C3EAC724088DF600742C9F /* Info.plist */,
+			);
+			path = mesaDesafioTests;
+			sourceTree = "<group>";
+		};
+		53C3EACF24088DF600742C9F /* mesaDesafioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53C3EAD024088DF600742C9F /* mesaDesafioUITests.swift */,
+				53C3EAD224088DF600742C9F /* Info.plist */,
+			);
+			path = mesaDesafioUITests;
+			sourceTree = "<group>";
+		};
+		53C3EADE24089BBE00742C9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		53C3EADF24089BCC00742C9F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				53C3EAAF24088DEE00742C9F /* LoginVC.swift */,
+				53C3EAB924088DF600742C9F /* LaunchScreen.storyboard */,
+				53C3EAB124088DEE00742C9F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		53C3EAE024089BDB00742C9F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		581B14A5E818DD5F0B2CDE09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D65978F40D33CE10EBC7C622 /* Pods-mesaDesafio.debug.xcconfig */,
+				A066EEEA745B9B9418752C88 /* Pods-mesaDesafio.release.xcconfig */,
+				2AB55A26F536BB68F37EF5C2 /* Pods-mesaDesafio-mesaDesafioUITests.debug.xcconfig */,
+				EB8076B1ACCA4844C3C9DD4C /* Pods-mesaDesafio-mesaDesafioUITests.release.xcconfig */,
+				0BD61F7AE4BD2C1D6FF88316 /* Pods-mesaDesafioTests.debug.xcconfig */,
+				89EEE1AB08C5B7CDC8934AE9 /* Pods-mesaDesafioTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B9F3342CA96635BD1B6915F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE7BA5A67974AAA98ABAEBC3 /* Pods_mesaDesafio.framework */,
+				9B7CAE67FC65477725416777 /* Pods_mesaDesafio_mesaDesafioUITests.framework */,
+				D9B79F4FD8E4079E2A8D0F6F /* Pods_mesaDesafioTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53C3EAA724088DED00742C9F /* mesaDesafio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53C3EAD524088DF600742C9F /* Build configuration list for PBXNativeTarget "mesaDesafio" */;
+			buildPhases = (
+				8C202A32E776582C8DBF4058 /* [CP] Check Pods Manifest.lock */,
+				53C3EAA424088DED00742C9F /* Sources */,
+				53C3EAA524088DED00742C9F /* Frameworks */,
+				53C3EAA624088DED00742C9F /* Resources */,
+				055F194C0AC9FC5AB0391FCD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mesaDesafio;
+			productName = mesaDesafio;
+			productReference = 53C3EAA824088DED00742C9F /* mesaDesafio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53C3EAC024088DF600742C9F /* mesaDesafioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53C3EAD824088DF600742C9F /* Build configuration list for PBXNativeTarget "mesaDesafioTests" */;
+			buildPhases = (
+				E430170C6E4F76E60F0D3291 /* [CP] Check Pods Manifest.lock */,
+				53C3EABD24088DF600742C9F /* Sources */,
+				53C3EABE24088DF600742C9F /* Frameworks */,
+				53C3EABF24088DF600742C9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53C3EAC324088DF600742C9F /* PBXTargetDependency */,
+			);
+			name = mesaDesafioTests;
+			productName = mesaDesafioTests;
+			productReference = 53C3EAC124088DF600742C9F /* mesaDesafioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53C3EACB24088DF600742C9F /* mesaDesafioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53C3EADB24088DF600742C9F /* Build configuration list for PBXNativeTarget "mesaDesafioUITests" */;
+			buildPhases = (
+				3A7DCE95D8650AA318136BBD /* [CP] Check Pods Manifest.lock */,
+				53C3EAC824088DF600742C9F /* Sources */,
+				53C3EAC924088DF600742C9F /* Frameworks */,
+				53C3EACA24088DF600742C9F /* Resources */,
+				AD15CF80C0F8B6860A3DEDB2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53C3EACE24088DF600742C9F /* PBXTargetDependency */,
+			);
+			name = mesaDesafioUITests;
+			productName = mesaDesafioUITests;
+			productReference = 53C3EACC24088DF600742C9F /* mesaDesafioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53C3EAA024088DED00742C9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = com.rafael.douglas;
+				TargetAttributes = {
+					53C3EAA724088DED00742C9F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					53C3EAC024088DF600742C9F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 53C3EAA724088DED00742C9F;
+					};
+					53C3EACB24088DF600742C9F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 53C3EAA724088DED00742C9F;
+					};
+				};
+			};
+			buildConfigurationList = 53C3EAA324088DED00742C9F /* Build configuration list for PBXProject "mesaDesafio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53C3EA9F24088DED00742C9F;
+			productRefGroup = 53C3EAA924088DED00742C9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53C3EAA724088DED00742C9F /* mesaDesafio */,
+				53C3EAC024088DF600742C9F /* mesaDesafioTests */,
+				53C3EACB24088DF600742C9F /* mesaDesafioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53C3EAA624088DED00742C9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C3EABB24088DF600742C9F /* LaunchScreen.storyboard in Resources */,
+				53C3EAE62408C64C00742C9F /* GoogleService-Info.plist in Resources */,
+				53C3EAB824088DF600742C9F /* Assets.xcassets in Resources */,
+				53C3EAB324088DEE00742C9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C3EABF24088DF600742C9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C3EACA24088DF600742C9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		055F194C0AC9FC5AB0391FCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mesaDesafio/Pods-mesaDesafio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mesaDesafio/Pods-mesaDesafio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mesaDesafio/Pods-mesaDesafio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A7DCE95D8650AA318136BBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mesaDesafio-mesaDesafioUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C202A32E776582C8DBF4058 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mesaDesafio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD15CF80C0F8B6860A3DEDB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mesaDesafio-mesaDesafioUITests/Pods-mesaDesafio-mesaDesafioUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mesaDesafio-mesaDesafioUITests/Pods-mesaDesafio-mesaDesafioUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mesaDesafio-mesaDesafioUITests/Pods-mesaDesafio-mesaDesafioUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E430170C6E4F76E60F0D3291 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mesaDesafioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53C3EAA424088DED00742C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C3EAE22408A3F800742C9F /* Constants.swift in Sources */,
+				53C3EAB024088DEE00742C9F /* LoginVC.swift in Sources */,
+				53C3EAB624088DEE00742C9F /* mesaDesafio.xcdatamodeld in Sources */,
+				53C3EAAC24088DEE00742C9F /* AppDelegate.swift in Sources */,
+				53C3EAAE24088DEE00742C9F /* SceneDelegate.swift in Sources */,
+				53C3EAE42408A5A500742C9F /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C3EABD24088DF600742C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C3EAC624088DF600742C9F /* mesaDesafioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C3EAC824088DF600742C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C3EAD124088DF600742C9F /* mesaDesafioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53C3EAC324088DF600742C9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53C3EAA724088DED00742C9F /* mesaDesafio */;
+			targetProxy = 53C3EAC224088DF600742C9F /* PBXContainerItemProxy */;
+		};
+		53C3EACE24088DF600742C9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53C3EAA724088DED00742C9F /* mesaDesafio */;
+			targetProxy = 53C3EACD24088DF600742C9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53C3EAB124088DEE00742C9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53C3EAB224088DEE00742C9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53C3EAB924088DF600742C9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53C3EABA24088DF600742C9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53C3EAD324088DF600742C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53C3EAD424088DF600742C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53C3EAD624088DF600742C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D65978F40D33CE10EBC7C622 /* Pods-mesaDesafio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Y3YQWHXT;
+				INFOPLIST_FILE = mesaDesafio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rafael.douglas.mesaDesafio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53C3EAD724088DF600742C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A066EEEA745B9B9418752C88 /* Pods-mesaDesafio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Y3YQWHXT;
+				INFOPLIST_FILE = mesaDesafio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rafael.douglas.mesaDesafio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		53C3EAD924088DF600742C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD61F7AE4BD2C1D6FF88316 /* Pods-mesaDesafioTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Y3YQWHXT;
+				INFOPLIST_FILE = mesaDesafioTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rafael.douglas.mesaDesafioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mesaDesafio.app/mesaDesafio";
+			};
+			name = Debug;
+		};
+		53C3EADA24088DF600742C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89EEE1AB08C5B7CDC8934AE9 /* Pods-mesaDesafioTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Y3YQWHXT;
+				INFOPLIST_FILE = mesaDesafioTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rafael.douglas.mesaDesafioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mesaDesafio.app/mesaDesafio";
+			};
+			name = Release;
+		};
+		53C3EADC24088DF600742C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB55A26F536BB68F37EF5C2 /* Pods-mesaDesafio-mesaDesafioUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Y3YQWHXT;
+				INFOPLIST_FILE = mesaDesafioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rafael.douglas.mesaDesafioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mesaDesafio;
+			};
+			name = Debug;
+		};
+		53C3EADD24088DF600742C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB8076B1ACCA4844C3C9DD4C /* Pods-mesaDesafio-mesaDesafioUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Y3YQWHXT;
+				INFOPLIST_FILE = mesaDesafioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rafael.douglas.mesaDesafioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mesaDesafio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53C3EAA324088DED00742C9F /* Build configuration list for PBXProject "mesaDesafio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C3EAD324088DF600742C9F /* Debug */,
+				53C3EAD424088DF600742C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53C3EAD524088DF600742C9F /* Build configuration list for PBXNativeTarget "mesaDesafio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C3EAD624088DF600742C9F /* Debug */,
+				53C3EAD724088DF600742C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53C3EAD824088DF600742C9F /* Build configuration list for PBXNativeTarget "mesaDesafioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C3EAD924088DF600742C9F /* Debug */,
+				53C3EADA24088DF600742C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53C3EADB24088DF600742C9F /* Build configuration list for PBXNativeTarget "mesaDesafioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C3EADC24088DF600742C9F /* Debug */,
+				53C3EADD24088DF600742C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		53C3EAB424088DEE00742C9F /* mesaDesafio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				53C3EAB524088DEE00742C9F /* mesaDesafio.xcdatamodel */,
+			);
+			currentVersion = 53C3EAB524088DEE00742C9F /* mesaDesafio.xcdatamodel */;
+			path = mesaDesafio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 53C3EAA024088DED00742C9F /* Project object */;
+}
