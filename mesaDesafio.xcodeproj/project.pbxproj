@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		045422F372F1098BBF170E49 /* Pods_mesaDesafio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7BA5A67974AAA98ABAEBC3 /* Pods_mesaDesafio.framework */; };
+		531BC9BA240D3FD500744894 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531BC9B9240D3FD400744894 /* UIViewExtension.swift */; };
+		5341178C240CB921005697C0 /* TypesTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5341178B240CB921005697C0 /* TypesTableVC.swift */; };
+		5341178E240CBF72005697C0 /* MapVC+TypesTableViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5341178D240CBF72005697C0 /* MapVC+TypesTableViewControllerDelegate.swift */; };
+		53411790240CC2E6005697C0 /* MarkerInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5341178F240CC2E6005697C0 /* MarkerInfoView.xib */; };
+		53411792240CC36C005697C0 /* MarkerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53411791240CC36C005697C0 /* MarkerInfoView.swift */; };
+		53831B52240BF88900A219F9 /* MapVC+CLLocationManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53831B51240BF88900A219F9 /* MapVC+CLLocationManagerDelegate.swift */; };
+		53831B54240C011C00A219F9 /* MapVC+GMSMapViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53831B53240C011C00A219F9 /* MapVC+GMSMapViewDelegate.swift */; };
+		53831B56240C248F00A219F9 /* MapVC+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53831B55240C248F00A219F9 /* MapVC+UIGestureRecognizerDelegate.swift */; };
+		53831B59240C329300A219F9 /* GooglePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53831B58240C329300A219F9 /* GooglePlace.swift */; };
+		53831B5B240C36EF00A219F9 /* PlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53831B5A240C36EF00A219F9 /* PlaceMarker.swift */; };
+		53831B5D240C378E00A219F9 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53831B5C240C378E00A219F9 /* DataProvider.swift */; };
 		53C3EAAC24088DEE00742C9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C3EAAB24088DED00742C9F /* AppDelegate.swift */; };
 		53C3EAAE24088DEE00742C9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C3EAAD24088DEE00742C9F /* SceneDelegate.swift */; };
 		53C3EAB024088DEE00742C9F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C3EAAF24088DEE00742C9F /* LoginVC.swift */; };
@@ -20,6 +31,7 @@
 		53C3EAE22408A3F800742C9F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C3EAE12408A3F800742C9F /* Constants.swift */; };
 		53C3EAE42408A5A500742C9F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C3EAE32408A5A500742C9F /* Utils.swift */; };
 		53C3EAE62408C64C00742C9F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53C3EAE52408C64B00742C9F /* GoogleService-Info.plist */; };
+		53C3EAE82409F9AE00742C9F /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C3EAE72409F9AE00742C9F /* MapVC.swift */; };
 		5C41F1F83560AC25570FEF6D /* Pods_mesaDesafio_mesaDesafioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7CAE67FC65477725416777 /* Pods_mesaDesafio_mesaDesafioUITests.framework */; };
 		A49D99250E56ECC08741A8FE /* Pods_mesaDesafioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B79F4FD8E4079E2A8D0F6F /* Pods_mesaDesafioTests.framework */; };
 /* End PBXBuildFile section */
@@ -44,6 +56,17 @@
 /* Begin PBXFileReference section */
 		0BD61F7AE4BD2C1D6FF88316 /* Pods-mesaDesafioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mesaDesafioTests.debug.xcconfig"; path = "Target Support Files/Pods-mesaDesafioTests/Pods-mesaDesafioTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2AB55A26F536BB68F37EF5C2 /* Pods-mesaDesafio-mesaDesafioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mesaDesafio-mesaDesafioUITests.debug.xcconfig"; path = "Target Support Files/Pods-mesaDesafio-mesaDesafioUITests/Pods-mesaDesafio-mesaDesafioUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		531BC9B9240D3FD400744894 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		5341178B240CB921005697C0 /* TypesTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesTableVC.swift; sourceTree = "<group>"; };
+		5341178D240CBF72005697C0 /* MapVC+TypesTableViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapVC+TypesTableViewControllerDelegate.swift"; sourceTree = "<group>"; };
+		5341178F240CC2E6005697C0 /* MarkerInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarkerInfoView.xib; sourceTree = "<group>"; };
+		53411791240CC36C005697C0 /* MarkerInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerInfoView.swift; sourceTree = "<group>"; };
+		53831B51240BF88900A219F9 /* MapVC+CLLocationManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapVC+CLLocationManagerDelegate.swift"; sourceTree = "<group>"; };
+		53831B53240C011C00A219F9 /* MapVC+GMSMapViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapVC+GMSMapViewDelegate.swift"; sourceTree = "<group>"; };
+		53831B55240C248F00A219F9 /* MapVC+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapVC+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
+		53831B58240C329300A219F9 /* GooglePlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlace.swift; sourceTree = "<group>"; };
+		53831B5A240C36EF00A219F9 /* PlaceMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceMarker.swift; sourceTree = "<group>"; };
+		53831B5C240C378E00A219F9 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		53C3EAA824088DED00742C9F /* mesaDesafio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mesaDesafio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C3EAAB24088DED00742C9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53C3EAAD24088DEE00742C9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +85,7 @@
 		53C3EAE12408A3F800742C9F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		53C3EAE32408A5A500742C9F /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		53C3EAE52408C64B00742C9F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		53C3EAE72409F9AE00742C9F /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		89EEE1AB08C5B7CDC8934AE9 /* Pods-mesaDesafioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mesaDesafioTests.release.xcconfig"; path = "Target Support Files/Pods-mesaDesafioTests/Pods-mesaDesafioTests.release.xcconfig"; sourceTree = "<group>"; };
 		9B7CAE67FC65477725416777 /* Pods_mesaDesafio_mesaDesafioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mesaDesafio_mesaDesafioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A066EEEA745B9B9418752C88 /* Pods-mesaDesafio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mesaDesafio.release.xcconfig"; path = "Target Support Files/Pods-mesaDesafio/Pods-mesaDesafio.release.xcconfig"; sourceTree = "<group>"; };
@@ -160,6 +184,8 @@
 		53C3EADE24089BBE00742C9F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				53831B58240C329300A219F9 /* GooglePlace.swift */,
+				53831B5A240C36EF00A219F9 /* PlaceMarker.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -170,6 +196,15 @@
 				53C3EAAF24088DEE00742C9F /* LoginVC.swift */,
 				53C3EAB924088DF600742C9F /* LaunchScreen.storyboard */,
 				53C3EAB124088DEE00742C9F /* Main.storyboard */,
+				53C3EAE72409F9AE00742C9F /* MapVC.swift */,
+				53831B51240BF88900A219F9 /* MapVC+CLLocationManagerDelegate.swift */,
+				53831B53240C011C00A219F9 /* MapVC+GMSMapViewDelegate.swift */,
+				53831B55240C248F00A219F9 /* MapVC+UIGestureRecognizerDelegate.swift */,
+				5341178B240CB921005697C0 /* TypesTableVC.swift */,
+				5341178D240CBF72005697C0 /* MapVC+TypesTableViewControllerDelegate.swift */,
+				5341178F240CC2E6005697C0 /* MarkerInfoView.xib */,
+				53411791240CC36C005697C0 /* MarkerInfoView.swift */,
+				531BC9B9240D3FD400744894 /* UIViewExtension.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -177,6 +212,7 @@
 		53C3EAE024089BDB00742C9F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				53831B5C240C378E00A219F9 /* DataProvider.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -216,6 +252,7 @@
 				53C3EAA524088DED00742C9F /* Frameworks */,
 				53C3EAA624088DED00742C9F /* Resources */,
 				055F194C0AC9FC5AB0391FCD /* [CP] Embed Pods Frameworks */,
+				7FEBCC7F0EFED7830A402E8A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +291,7 @@
 				53C3EAC924088DF600742C9F /* Frameworks */,
 				53C3EACA24088DF600742C9F /* Resources */,
 				AD15CF80C0F8B6860A3DEDB2 /* [CP] Embed Pods Frameworks */,
+				8EA218B8E26854101279F80C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -315,6 +353,7 @@
 			files = (
 				53C3EABB24088DF600742C9F /* LaunchScreen.storyboard in Resources */,
 				53C3EAE62408C64C00742C9F /* GoogleService-Info.plist in Resources */,
+				53411790240CC2E6005697C0 /* MarkerInfoView.xib in Resources */,
 				53C3EAB824088DF600742C9F /* Assets.xcassets in Resources */,
 				53C3EAB324088DEE00742C9F /* Main.storyboard in Resources */,
 			);
@@ -376,6 +415,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7FEBCC7F0EFED7830A402E8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mesaDesafio/Pods-mesaDesafio-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mesaDesafio/Pods-mesaDesafio-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mesaDesafio/Pods-mesaDesafio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8C202A32E776582C8DBF4058 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -396,6 +452,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EA218B8E26854101279F80C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mesaDesafio-mesaDesafioUITests/Pods-mesaDesafio-mesaDesafioUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mesaDesafio-mesaDesafioUITests/Pods-mesaDesafio-mesaDesafioUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mesaDesafio-mesaDesafioUITests/Pods-mesaDesafio-mesaDesafioUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AD15CF80C0F8B6860A3DEDB2 /* [CP] Embed Pods Frameworks */ = {
@@ -444,12 +517,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53831B54240C011C00A219F9 /* MapVC+GMSMapViewDelegate.swift in Sources */,
+				53831B52240BF88900A219F9 /* MapVC+CLLocationManagerDelegate.swift in Sources */,
+				53831B59240C329300A219F9 /* GooglePlace.swift in Sources */,
+				5341178E240CBF72005697C0 /* MapVC+TypesTableViewControllerDelegate.swift in Sources */,
+				53831B5B240C36EF00A219F9 /* PlaceMarker.swift in Sources */,
 				53C3EAE22408A3F800742C9F /* Constants.swift in Sources */,
 				53C3EAB024088DEE00742C9F /* LoginVC.swift in Sources */,
 				53C3EAB624088DEE00742C9F /* mesaDesafio.xcdatamodeld in Sources */,
+				531BC9BA240D3FD500744894 /* UIViewExtension.swift in Sources */,
+				53411792240CC36C005697C0 /* MarkerInfoView.swift in Sources */,
 				53C3EAAC24088DEE00742C9F /* AppDelegate.swift in Sources */,
+				53831B56240C248F00A219F9 /* MapVC+UIGestureRecognizerDelegate.swift in Sources */,
+				5341178C240CB921005697C0 /* TypesTableVC.swift in Sources */,
+				53C3EAE82409F9AE00742C9F /* MapVC.swift in Sources */,
 				53C3EAAE24088DEE00742C9F /* SceneDelegate.swift in Sources */,
 				53C3EAE42408A5A500742C9F /* Utils.swift in Sources */,
+				53831B5D240C378E00A219F9 /* DataProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,6 +707,7 @@
 			baseConfigurationReference = D65978F40D33CE10EBC7C622 /* Pods-mesaDesafio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57Y3YQWHXT;
 				INFOPLIST_FILE = mesaDesafio/Info.plist;
@@ -632,6 +717,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = rafael.douglas.mesaDesafio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -642,6 +728,7 @@
 			baseConfigurationReference = A066EEEA745B9B9418752C88 /* Pods-mesaDesafio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57Y3YQWHXT;
 				INFOPLIST_FILE = mesaDesafio/Info.plist;
@@ -651,6 +738,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = rafael.douglas.mesaDesafio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

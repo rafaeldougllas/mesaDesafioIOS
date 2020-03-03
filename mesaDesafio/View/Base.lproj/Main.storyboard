@@ -18,10 +18,111 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="B2H-xQ-vWc"/>
+                    <connections>
+                        <segue destination="gEV-mu-RC0" kind="show" identifier="showMap" id="Ph6-y0-zMm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="584" y="93"/>
+        </scene>
+        <!--MapVC-->
+        <scene sceneID="uRK-eg-4xc">
+            <objects>
+                <viewController storyboardIdentifier="MapVC" id="gEV-mu-RC0" customClass="MapVC" customModule="mesaDesafio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U4y-9w-vh0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Db4-QL-lvw" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="20" width="414" height="856"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Db4-QL-lvw" secondAttribute="bottom" constant="20" symbolic="YES" id="4OY-24-dGY"/>
+                            <constraint firstItem="Db4-QL-lvw" firstAttribute="leading" secondItem="PLF-aR-lV3" secondAttribute="leading" id="Af6-P4-Smo"/>
+                            <constraint firstItem="Db4-QL-lvw" firstAttribute="top" secondItem="U4y-9w-vh0" secondAttribute="top" constant="20" symbolic="YES" id="Tf6-jo-0Ut"/>
+                            <constraint firstItem="Db4-QL-lvw" firstAttribute="trailing" secondItem="PLF-aR-lV3" secondAttribute="trailing" id="dKo-NA-V9R"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PLF-aR-lV3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fEV-bH-OU6">
+                        <barButtonItem key="leftBarButtonItem" systemItem="refresh" id="WvW-Nm-f3j"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="filter" id="50h-1e-CBc">
+                            <connections>
+                                <segue destination="yxo-EF-3Ib" kind="presentation" id="oZ3-gg-WiE"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="mapView" destination="Db4-QL-lvw" id="khO-xY-rg4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ywV-EJ-3qA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1378.2608695652175" y="94.419642857142847"/>
+        </scene>
+        <!--Root View Controller-->
+        <scene sceneID="8UC-s7-eta">
+            <objects>
+                <tableViewController id="oyV-M5-eaD" customClass="TypesTableVC" customModule="mesaDesafio" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="wbl-dd-5Uj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TypeCell" textLabel="XpM-iS-c8M" style="IBUITableViewCellStyleDefault" id="wg3-O1-UGj">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wg3-O1-UGj" id="qg1-lV-4Uj">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XpM-iS-c8M">
+                                            <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="oyV-M5-eaD" id="VyF-FE-taT"/>
+                            <outlet property="delegate" destination="oyV-M5-eaD" id="VB0-oD-eQy"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="lD7-83-pJf">
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="UYJ-aC-x4g">
+                            <connections>
+                                <action selector="donePressed:" destination="oyV-M5-eaD" id="IKm-QM-q41"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kAm-Uv-c71" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3016" y="100"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="FKo-8r-eDL">
+            <objects>
+                <navigationController id="yxo-EF-3Ib" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="abH-fC-b0j">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="oyV-M5-eaD" kind="relationship" relationship="rootViewController" id="9NO-ct-3X6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="grv-Ej-t8f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2099" y="100"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="U40-eT-EjT">
@@ -40,4 +141,7 @@
             <point key="canvasLocation" x="-207" y="92"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="filter" width="25" height="25"/>
+    </resources>
 </document>

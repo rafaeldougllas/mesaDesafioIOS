@@ -11,6 +11,12 @@ target 'mesaDesafio' do
   pod 'FBSDKLoginKit'
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+  
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
 
   target 'mesaDesafioTests' do
     inherit! :search_paths

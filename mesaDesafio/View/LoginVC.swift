@@ -23,9 +23,9 @@ class LoginVC: UIViewController {
     }
     
     func setupView(){
-        let background = Utils.hexStringToUIColor(hex: backgroundRGB)
-        self.view.backgroundColor = background
-        self.navigationController?.navigationBar.barTintColor = Utils.hexStringToUIColor(hex: backgroundRGB)
+        let backgroundColor = Utils.hexStringToUIColor(hex: COLOR_BACKGROUND)
+        self.view.backgroundColor = backgroundColor
+        self.navigationController?.navigationBar.barTintColor = backgroundColor
     }
 
     func setupFbBtn(){
@@ -44,7 +44,9 @@ extension LoginVC: LoginButtonDelegate {
             print(error.localizedDescription)
         } else {
             DispatchQueue.main.async {
-                print("PEGOU")
+                if(result?.isCancelled == true){ return }
+                if((result?.declinedPermissions.count)! > 0) == true{ return }
+                self.performSegue(withIdentifier: "showMap", sender: nil)
             }
         }
     }

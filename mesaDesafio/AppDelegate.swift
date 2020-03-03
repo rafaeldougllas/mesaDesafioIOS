@@ -11,6 +11,8 @@ import CoreData
 import FBSDKCoreKit
 import FBSDKLoginKit
 import Firebase
+import GoogleMaps
+import GooglePlaces
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,20 +22,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        // Facebook settings
-        ApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
+        // Facebook Login settings
+        FBSDKCoreKit.ApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
         LoginManager.initialize()
+        
         //Firebase settings
         FirebaseApp.configure()
+        
+        // Google Maps settings
+        GMSServices.provideAPIKey(GOOGLE_MAPS_APIKEY)
+        GMSPlacesClient.provideAPIKey(GOOGLE_MAPS_APIKEY)
+        
         return true
     }
     
+    // Facebook settings
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-        return ApplicationDelegate.shared.application(
-            app,
-            open: url,
-            options: options
-        )
+        let handled = FBSDKCoreKit.ApplicationDelegate.shared.application(app, open: url, options: options)
+        return handled
     }
 
     // MARK: UISceneSession Lifecycle

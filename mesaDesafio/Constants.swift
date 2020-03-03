@@ -9,4 +9,8 @@
 import Foundation
 
 // Colors
-let backgroundRGB = "#800409"
+let COLOR_BACKGROUND = "#800409"
+
+//APIS
+let GOOGLE_MAPS_APIKEY =  "AIzaSyAOaMHDwo0WKKJpGretKSf2db7RVoKSuU4"//"AIzaSyCNZZrm95R0kq30tfFYSjV8js1ZFmR1ZNk"
+

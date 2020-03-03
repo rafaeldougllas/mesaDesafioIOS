@@ -60,7 +60,6 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<!-- FACEBOOK -->
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
@@ -74,7 +73,6 @@
 	<string>1027591240959789</string>
 	<key>FacebookDisplayName</key>
 	<string>mesaDesafio</string>
-
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>fbapi</string>
@@ -91,6 +89,12 @@
 		<string>fbauth</string>
 		<string>fbauth2</string>
 		<string>fbshareextension</string>
+		<string>googlechromes</string>
+		<string>comgooglemaps</string>
 	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>&quot;By accessing your location, this app can find places to you.&quot;</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>&quot;By accessing your location, this app can find  places to you.&quot;</string>
 </dict>
 </plist>
