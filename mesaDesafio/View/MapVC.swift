@@ -60,9 +60,6 @@ class MapVC: UIViewController {
     
     func setupView(){
         print("setupView")
-        //Hiding back button
-        self.navigationItem.leftBarButtonItem = nil
-        self.navigationItem.hidesBackButton = true
         //Set color on background
         let backgroundColor = Utils.hexStringToUIColor(hex: COLOR_BACKGROUND)
         self.view.backgroundColor = backgroundColor
