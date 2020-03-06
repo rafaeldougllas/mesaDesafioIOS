@@ -11,8 +11,8 @@ import Foundation
 // MARK: - TypesTableViewControllerDelegate
 extension MapVC: TypesTableVCDelegate {
   func typesController(_ controller: TypesTableVC, didSelectTypes types: String) {
-    selectedFilter = controller.selectedTypes
+    viewModel.selectedFilter = controller.viewModel.selectedTypes
     dismiss(animated: true)
-    getPlaces()
+    viewModel.getPlaces(mapView: mapView)
   }
 }

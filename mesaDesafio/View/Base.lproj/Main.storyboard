@@ -49,8 +49,12 @@
                         <viewLayoutGuide key="safeArea" id="PLF-aR-lV3"/>
                     </view>
                     <navigationItem key="navigationItem" id="fEV-bH-OU6">
-                        <barButtonItem key="leftBarButtonItem" systemItem="refresh" id="WvW-Nm-f3j"/>
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="filter" id="50h-1e-CBc">
+                        <barButtonItem key="leftBarButtonItem" systemItem="refresh" id="WvW-Nm-f3j">
+                            <connections>
+                                <action selector="refreshPlaces:" destination="gEV-mu-RC0" id="1hh-MV-hay"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="filter_icon" id="50h-1e-CBc">
                             <connections>
                                 <segue destination="yxo-EF-3Ib" kind="presentation" id="oZ3-gg-WiE"/>
                             </connections>
@@ -64,10 +68,10 @@
             </objects>
             <point key="canvasLocation" x="1378.2608695652175" y="94.419642857142847"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Filtrat por categoria-->
         <scene sceneID="8UC-s7-eta">
             <objects>
-                <tableViewController id="oyV-M5-eaD" customClass="TypesTableVC" customModule="mesaDesafio" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Filtrat por categoria" id="oyV-M5-eaD" customClass="TypesTableVC" customModule="mesaDesafio" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="wbl-dd-5Uj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -97,7 +101,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="lD7-83-pJf">
-                        <barButtonItem key="rightBarButtonItem" title="Done" id="UYJ-aC-x4g">
+                        <barButtonItem key="rightBarButtonItem" title="OK" id="UYJ-aC-x4g">
                             <connections>
                                 <action selector="donePressed:" destination="oyV-M5-eaD" id="IKm-QM-q41"/>
                             </connections>
@@ -122,7 +126,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="grv-Ej-t8f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2099" y="100"/>
+            <point key="canvasLocation" x="2086" y="94"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="U40-eT-EjT">
@@ -142,6 +146,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="filter" width="25" height="25"/>
+        <image name="filter_icon" width="25" height="25"/>
     </resources>
 </document>

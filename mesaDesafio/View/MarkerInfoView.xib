@@ -30,26 +30,26 @@
                     <color key="textColor" red="0.50197517869999997" green="0.015688359740000001" blue="0.035340256989999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RGt-hy-Tlr">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RGt-hy-Tlr">
                     <rect key="frame" x="30" y="170" width="40" height="40"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="TM4-0J-D2o"/>
                         <constraint firstAttribute="width" constant="40" id="de1-bk-6Nc"/>
                     </constraints>
-                    <state key="normal" title="MA"/>
+                    <state key="normal" title="MA" image="maps_icon"/>
                     <connections>
-                        <action selector="mapsBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="OIc-kx-bhU"/>
+                        <action selector="mapsBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="BM7-vu-97b"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TWh-yY-oYu">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TWh-yY-oYu">
                     <rect key="frame" x="100" y="170" width="40" height="40"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="oD2-Es-fta"/>
                         <constraint firstAttribute="width" constant="40" id="oDU-6e-N1A"/>
                     </constraints>
-                    <state key="normal" title="WA"/>
+                    <state key="normal" title="WA" image="waze_icon"/>
                     <connections>
-                        <action selector="wazeBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="Hf4-hL-rlu"/>
+                        <action selector="wazeBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="hMb-W1-NkP"/>
                     </connections>
                 </button>
             </subviews>
@@ -81,4 +81,8 @@
             <point key="canvasLocation" x="132" y="78"/>
         </view>
     </objects>
+    <resources>
+        <image name="maps_icon" width="341.33334350585938" height="341.33334350585938"/>
+        <image name="waze_icon" width="41" height="40"/>
+    </resources>
 </document>

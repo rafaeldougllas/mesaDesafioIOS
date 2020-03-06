@@ -91,6 +91,8 @@
 		<string>fbshareextension</string>
 		<string>googlechromes</string>
 		<string>comgooglemaps</string>
+		<string>waze</string>
+		<string>apps.apple</string>
 	</array>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>&quot;By accessing your location, this app can find places to you.&quot;</string>
